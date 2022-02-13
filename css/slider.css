@@ -60,7 +60,7 @@ li a:hover {
 
 .icon-bar {
   width: 90px; /* Set a specific width */
-  background-color: #555; /* Dark-grey background */
+  background-color: rgb(204, 204, 255); /* Dark-grey background */
 }
 
 .icon-bar a {
@@ -77,5 +77,5 @@ li a:hover {
 }
 
 .active {
-  background-color: #04AA6D; /* Add an active/current color */
+  background-color: rgb(204, 204, 255); /* Add an active/current color */
 }
