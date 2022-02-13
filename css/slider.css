@@ -60,7 +60,7 @@ li a:hover {
 
 .icon-bar {
   width: 100%; /* Full-width */
-  background-color: #555; /* Dark-grey background */
+  background-color: black; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
 }
 
