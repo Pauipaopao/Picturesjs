@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html lang="sv"> 
+<html lang="eng"> 
 <head> 
 
     <title>Pictures JavaScript</title> 
@@ -23,19 +23,26 @@
     </header> 
 
     <header> 
+        
+<!-- The overlay -->
+<div id="myNav" class="overlay">
 
-        <ul class="topnav"> 
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-            <li><a href="https://www.youtube.com/watch?v=nK24dsK6nco">Hem</a></li> 
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="https://www.youtube.com/watch?v=nK24dsK6nco">About</a>
+    <a href="https://www.youtube.com/watch?v=k1kmM8SUwyg">Services</a>
+    <a href="https://www.youtube.com/watch?v=5_GMVA_leqc">Clients</a>
+    <a href="https://www.youtube.com/watch?v=AJZukAVGYTY">Contact</a>
+  </div>
 
-            <li><a href="https://www.youtube.com/watch?v=k1kmM8SUwyg">Nyheter</a></li> 
+</div>
 
-            <li><a href="https://www.youtube.com/watch?v=5_GMVA_leqc">Kontakt</a></li> 
-
-            <li><a href="https://www.youtube.com/watch?v=AJZukAVGYTY">Om</a></li> 
-
-        </ul> 
-
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">open</span>
+    
     </header> 
     
     <div class="div-content">
